@@ -14,6 +14,9 @@
 		D65EB2942C62A65A00690A26 /* ikncigorevTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65EB2932C62A65A00690A26 /* ikncigorevTests.swift */; };
 		D65EB29E2C62A65A00690A26 /* ikncigorevUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65EB29D2C62A65A00690A26 /* ikncigorevUITests.swift */; };
 		D65EB2A02C62A65A00690A26 /* ikncigorevUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65EB29F2C62A65A00690A26 /* ikncigorevUITestsLaunchTests.swift */; };
+		D65EB2AE2C62A7A100690A26 /* CustomTextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65EB2AD2C62A7A100690A26 /* CustomTextFieldStyle.swift */; };
+		D65EB2B12C63680600690A26 /* LightStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65EB2B02C63680600690A26 /* LightStyle.swift */; };
+		D6BE320D2C63686400A141C9 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BE320C2C63686400A141C9 /* UIColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		D65EB2992C62A65A00690A26 /* ikncigorevUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ikncigorevUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D65EB29D2C62A65A00690A26 /* ikncigorevUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ikncigorevUITests.swift; sourceTree = "<group>"; };
 		D65EB29F2C62A65A00690A26 /* ikncigorevUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ikncigorevUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D65EB2AD2C62A7A100690A26 /* CustomTextFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextFieldStyle.swift; sourceTree = "<group>"; };
+		D65EB2B02C63680600690A26 /* LightStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightStyle.swift; sourceTree = "<group>"; };
+		D6BE320C2C63686400A141C9 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +100,8 @@
 		D65EB2812C62A65900690A26 /* ikncigorev */ = {
 			isa = PBXGroup;
 			children = (
+				D65EB2AF2C6367E400690A26 /* UIColor+Extensions.swift */,
+				D65EB2AC2C62A73600690A26 /* Inputs */,
 				D65EB2822C62A65900690A26 /* ikncigorevApp.swift */,
 				D65EB2842C62A65900690A26 /* ContentView.swift */,
 				D65EB2862C62A65A00690A26 /* Assets.xcassets */,
@@ -125,6 +133,23 @@
 				D65EB29F2C62A65A00690A26 /* ikncigorevUITestsLaunchTests.swift */,
 			);
 			path = ikncigorevUITests;
+			sourceTree = "<group>";
+		};
+		D65EB2AC2C62A73600690A26 /* Inputs */ = {
+			isa = PBXGroup;
+			children = (
+				D65EB2AD2C62A7A100690A26 /* CustomTextFieldStyle.swift */,
+			);
+			path = Inputs;
+			sourceTree = "<group>";
+		};
+		D65EB2AF2C6367E400690A26 /* UIColor+Extensions.swift */ = {
+			isa = PBXGroup;
+			children = (
+				D65EB2B02C63680600690A26 /* LightStyle.swift */,
+				D6BE320C2C63686400A141C9 /* UIColor.swift */,
+			);
+			path = "UIColor+Extensions.swift";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +282,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D65EB2B12C63680600690A26 /* LightStyle.swift in Sources */,
 				D65EB2852C62A65900690A26 /* ContentView.swift in Sources */,
 				D65EB2832C62A65900690A26 /* ikncigorevApp.swift in Sources */,
+				D65EB2AE2C62A7A100690A26 /* CustomTextFieldStyle.swift in Sources */,
+				D6BE320D2C63686400A141C9 /* UIColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
